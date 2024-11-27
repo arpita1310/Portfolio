@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="icon" href="favicons.png" type="image/x-icon">
+    <meta name="theme-color" content="rgb(30, 159, 171)">
+    <title>Arpita Singh | Portfolio</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <button id="scrollTopButton" onclick="scrollToTop()">
+            Top <i class="uil uil-arrow-circle-up"></i>
+        </button>
+
+        <!-- HEADER -->
+        <nav id="header">
+            <div class="nav-logo">
+                <img src="favicons.png">
+            </div>
+
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link ">Home</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#experience" class="nav-link">Experience</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-button">
+                <button class="btn linkedin-btn"  id="linkedin-btn">
+                    <i class="uil uil-linkedin" id="linkedin"></i>
+                </button>
+            </div>
+
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+
+        </nav>
+
+        <!-- MAIN -->
+        <main class="wrapper">
+
+            <!-- FEATURED -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+
+                    
+
+                    <div class="featured-name">
+                        <p>
+                            Arpita Singh
+                        </p>
+                    </div>
+
+                    <div class="featured-text-info">
+                        <p>
+                            Harnessing technology to make dreams a reality.
+                        </p>
+                    </div>
+
+                    <div class="featured-text-btn">
+
+                        <button class="btn blue-btn" id="check-repo"><i class="uil uil-github-alt"></i>
+                        </button>
+                        <button class="btn blue-btn" id="leetcode">
+                            <img src="leetcode.jpg" class="leetcode">
+                        </button>
+
+                        <button class="btn" id="resume">
+                            Resume <i class="uil uil-link"></i>
+                        </button>
+
+                    </div>
+                    <!-- <div class="social_icons">
+                        <div class="icons">
+                            <i class="uil uil-instagram"></i>
+                        </div>
+                        
+                        <div class="icons">
+                            <i class="uil uil-linkedin-alt" id="linked-in"></i>
+                        </div>
+                        
+                        <div class="icons">
+                            <i class="uil uil-github-alt" id="check-repo-II"></i>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="featured-image">
+
+                    <div class="image">
+                        <img src="arpita.jpg" alt="Profile image">
+                    </div>
+                </div>
+
+<!--                 <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div> -->
+            </section>
+
+            <!-- ABOUT -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Introduction</h3>
+                            <p>                                
+                                I am currently pursuing a Bachelor's degree in Computer Science and Engineering 
+                                at Graphic Era Deemed to be University. During my academic journey, 
+                                I had the opportunity to intern at Amazon AWS, where I gained valuable experience. 
+                                I have developed a strong foundation in programming, data structures and algorithms,
+                                 machine learning, and web development, which has equipped me with the skills
+                                  to approach complex problems with creativity and efficiency.
+
+                                <br>
+                                
+                                Driven by a passion for technology, I am eager to apply my skills to real-world
+                                 challenges and contribute to innovative projects that shape the future of tech. 
+                                 I believe continuous learning and hands-on experience are key to growth, and 
+                                 I actively seek opportunities to expand my expertise and make a meaningful impact
+                                  in the tech industry.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="skills-box">
+                            <img src="abt.png">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn" id="linkedin-btn-II">
+                        View Profile <i class="uil uil-linkedin"></i>
+                    </button>
+                </div>
+            </section>
+
+
+            <div class="experience-section" id="experience">
+                <h1>Experience</h1>
+                <div class="experience-container">
+                  <!-- Card 1 -->
+                  <div class="experience-card">
+                    <img src="a2.png" alt="Company Logo" class="company-logo">
+                    <h3>SDE Intern</h3>
+                    <p class="company-name">Amazon</p>
+                    <p class="timeline">May 2024 - July 2024</p>
+                    <div class="experience-details">
+                      <p>Developed API performance metrics for AWS IoT SiteWise, 
+                        gaining experience in real-world problem-solving and strengthening 
+                        my skills in testing, technical documentation, and understanding the 
+                        importance of code quality, testing practices, and adherence to coding standards.</p>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="experience-card">
+                    <img src="tdh3.jpg" alt="Company Logo" class="company-logo">
+                    <h3>Advisor</h3>
+                    <p class="company-name">The Designnovation Hub</p>
+                    <p class="timeline">Aug 2023 - Present</p>
+                    <div class="experience-details">
+                      <p>As an advisor in one of my college clubs, I provide guidance and 
+                        mentorship to the club members, helping them plan and execute 
+                         projects. I ensure alignment with the club's goals, 
+                         foster collaboration among members, and support their personal and professional growth.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+            
+
+
+            <!-- Completed PROJECTS -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>
+                        Projects
+                    </h1>
+                </div>
+
+                <div class="project-container">
+
+                    <div class="project-box">
+                        <img src="https://www.python.org/static/community_logos/python-logo-generic.svg"
+                            alt="python logo" class="programming-logo">
+                        <h3>Python</h3>
+                        <label>Twitter Sentiment Analysis Web Application</label>
+                    </div>
+
+                    <div class="project-box">
+                        <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt=""
+                            class="programming-logo">
+                        <h3>Java</h3>
+                        <label>Picture Storing Application</label>
+                    </div>
+
+                    <div class="project-box">
+                        <img src="mern_logo.png" alt="" class="programming-logo-cpp">
+                        <h3>MERN Stack</h3>
+                        <label>Prompt2Pic - AI Image Generation Application</label>
+                    </div>
+
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn" id="check-repo-I">
+                            Check repository <i class="uil uil-github-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- CONTACT -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-arrow-circle-down"></i></h2>
+                            <p><i class="uil uil-envelopes"></i> Email: arpitawork13@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Phone: +91 7983447760</p>
+                            <p><a class="contact-link" href="https://www.linkedin.com/in/arpita-singh-343528221/"><i
+                                        class="uil uil-linkedin-alt"></i> linkedin</a></p>
+                            <p><a class="contact-link" href="https://github.com/arpita1310"><i
+                                        class="uil uil-github"></i> Github</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message me"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" onclick="sendEmail()">Send  <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="top-footer">
+                <p>Arpita Singh</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="https://github.com/arpita1310">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="https://www.linkedin.com/in/arpita-singh-343528221/">Profile</a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="footer-social-icons">
+                <div class="icons"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icons"><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy;
+                    <a href="#home" style="text-decoration: none;">
+                        Arpita Singh
+                    </a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
